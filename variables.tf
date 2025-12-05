@@ -1,16 +1,16 @@
 variable "project_name" {
-  type        = string
+  type = string
 }
 variable "description" {
-  type        = string
+  type = string
 }
 
 variable "blueprint_name" {
-type        = string 
+  type = string
 }
 
 variable "deployment_name" {
-  type        = string 
+  type = string
 }
 variable "inputs" {
   description = "Arbitrary inputs to pass to the blueprint"

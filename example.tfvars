@@ -1,7 +1,7 @@
 vcfa_url          = "https://vcf-lab-automation.int.sentania.net"
 vcfa_organization = "vcf-lab-vm-apps"
 deployments = {
-   mySixthDeployment = {
+  mySixthDeployment = {
     project_name         = "VCF Lab Sandbox"
     catalog_item_name    = "VM With Disks"
     deployment_name      = "Ubuntu Provisioned by TF (x6)"
@@ -46,7 +46,7 @@ deployments = {
       application  = "sandbox"
     }
   }
-    guessIneedaNewVM = {
+  guessIneedaNewVM = {
     project_name         = "VCF Lab Sandbox"
     catalog_item_name    = "VM With Disks"
     deployment_name      = "Deployed from Blueprint not Catalog"
