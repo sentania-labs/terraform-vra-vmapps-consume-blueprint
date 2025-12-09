@@ -1,6 +1,8 @@
 # Blueprint Deployment Module
 
-This module deploys **any Aria Automation or VCF Automation blueprint** using dynamic inputs passed from the parent Terraform configuration.  This module currently supports deploy the latest draft of an Assembler Blueprint.
+## This module is deprecated, please use terraform-vra-vmapps-deployment
+
+This module deploys **any Aria Automation or VCF Automation blueprint** using dynamic inputs passed from the parent Terraform configuration.  This module currently supports deploy the latest draft of an Assembler Blueprint. 
 
 It abstracts away the boilerplate of:
 - Selecting a project  
