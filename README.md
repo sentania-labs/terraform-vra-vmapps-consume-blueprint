@@ -1,6 +1,6 @@
-# Blueprint Deployment Module
+# terraform-vra-vmapps-consume-blueprint
 
-## This module is deprecated, please use terraform-vra-vmapps-deployment
+> **Deprecated.** Use [`terraform-vra-deployment`](https://github.com/sentania-labs/terraform-vra-deployment) instead.
 
 This module deploys **any Aria Automation or VCF Automation blueprint** using dynamic inputs passed from the parent Terraform configuration.  This module currently supports deploy the latest draft of an Assembler Blueprint. 
 
